@@ -1,0 +1,259 @@
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: "Roboto", sans-serif;
+   /*  font-family: "Special Gothic", sans-serif;
+      font-family: "Nunito", sans-serif;
+     font-family: "Nunito Sans", sans-serif; */
+}
+
+
+#box{
+     font-family: "Special Gothic", sans-serif;
+}
+
+
+.sidebar{
+     transition: 0.5s;
+     height: 100%;
+     scrollbar-width: none;
+}
+
+
+
+
+.li{
+color: #fff;
+transform: 0.3s;
+position: sticky;
+}
+
+.li:hover{
+     background: rgba(121, 143, 164,0.3);
+color: #fff;
+}
+
+
+.overfl,.client{
+     scrollbar-width: none;
+     text-wrap: nowrap;
+}
+
+
+
+
+.main {
+     grid-template-areas:
+       "one one one one"
+       "two two two two"
+       "four four four four"
+       "five five five five"
+       "table table table table"
+       "three three three three";
+       transition: 0.5s;
+   }
+
+@media only screen and (max-width: 639px) {
+     .main{
+          grid-template-areas: 
+          "nav nav nav nav"
+          "one one one one"
+          "two two two two"
+          "four four four four"
+     
+          "five five five five"
+          "table table table table"
+     
+          "three three three three"
+          ;
+          grid-template-columns: auto;
+          grid-template-rows: auto;
+          scrollbar-width: none;
+          transition: 0.5s;
+     
+     }
+  
+   }
+
+
+
+.table{
+     grid-area: table;
+}
+
+.nav{
+     grid-area: nav;
+}
+
+.one{
+     grid-area: one;
+}
+
+
+
+
+
+
+
+.two{
+     grid-area: two;
+     background: rgb(177, 78, 78);
+
+}
+
+
+.green{
+     filter: hue-rotate(200deg);
+}
+
+
+.blue{
+     filter: hue-rotate(300deg);
+}
+
+.red{
+     filter: hue-rotate(400deg);
+}
+
+
+.yellow{
+     filter: hue-rotate(600deg);
+}
+
+.purple{
+     filter: hue-rotate(800deg);
+}
+
+
+.card-p{
+     display: grid;
+     gap: 20px;
+     grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+     
+
+}
+
+.three{
+     grid-area: three;
+     background: rgb(119, 112, 112);
+
+}
+
+.four{
+     grid-area: four;
+     background: rgb(119, 112, 112);
+     
+}
+
+
+.product{
+     display: grid;
+     gap: 20px;
+     grid-template-columns: repeat(auto-fill,minmax(260px,1fr));
+}
+
+.ratecircle {
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+     background: conic-gradient(#3cc641 0% 80%, #c9c6c6 20% 100%);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: bold;
+     color: #333;
+     font-size: 20px;
+   }
+
+
+
+   .grid-table {
+     display: grid;
+     grid-template-columns: repeat(6, minmax(1%, auto));
+   }
+   
+
+   .databox{
+     display: grid;
+     grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+
+   }
+
+
+
+
+   .five{
+     grid-area: five;
+     background: rgb(119, 112, 112);
+
+}
+
+
+
+
+
+.weeks,.day{
+     display: grid;
+     grid-template-columns: repeat(7,1fr);
+font-size: clamp(10px,4vw,20px);
+     /* width: 100%; */
+     height: auto;
+     padding: clamp(1rem,3vw,2rem);
+     box-sizing: border-box;
+}
+
+
+.day div{
+     display: flex;
+     justify-content: center;
+     padding: 5px;
+     border-radius: 3px;
+     font-weight: bold;
+     transition: 0.4s;
+     /* width: 100%; */
+
+}
+
+.weeks div{
+     display: flex;
+     justify-content: center;
+     padding: 5px;
+color: #2a6aa5;
+font-weight: bold;
+/* font-size: clamp(0.5vw,20px,1.5vw); */
+
+width: 100%;
+
+}
+
+
+.weeks div:hover{
+     background: #678;
+     color: white;
+
+
+}
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

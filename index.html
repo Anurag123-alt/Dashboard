@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+RO:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link rel="stylesheet" href="style.css">
+
+  
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+
+
+<body class="bg-gray-300 w-full h-full flex">
+<!-- data-aos="fade-right" data-aos-duration="600" -->
+  <aside   
+    class="w-[100px] overflow-y-scroll overflow-x-hidden h-[100vh] xl:w-[300px] -translate-x-[100px] sm:translate-x-[0px] xl:translate-x-[0px] sm:flex sm:flex-col sm:justify-between lg:justify-between xl:justify-between  lg:flex lg:flex-col fixed  lg:justify-between xl:flex xl:flex-col xl:justify-between xl:block bg-black sidebar "
+    id="sidebar">
+
+
+    <ul class="h-full flex gap-1 flex-col p-[20px] ul">
+      <!-- <li class="  flex justify-start items-center p-4 text-2xl rounded-lg text-white text-2xl fixed"> -->
+      <li data-aos="slide-right" data-aos-duration="100" class="mt-2 flex xl:hidden justify-start items-center p-4 text-2xl rounded-lg li" id="menu1">
+        <div class="w-1/3 flex justify-start items-center text-3xl rounded-lg material-symbols-outlined">
+          menu
+        </div>
+        <div class="text  hidden xl:block sm:hidden text-orange-500 text-2xl"> SwiftDash
+        </div>
+
+      </li>
+
+      <li data-aos="slide-right" data-aos-duration="100" class="mt-2 flex hidden xl:flex justify-start items-center p-4 text-2xl rounded-lg li" id="menu2">
+        <div class="w-1/3 flex justify-start items-center text-3xl  rounded-lg material-symbols-outlined">
+          menu
+        </div>
+        <div class="text text-2xl hidden xl:block sm:hidden text-orange-500"> SwiftDash
+        </div>
+
+
+
+      </li>
+
+
+
+
+
+      <li data-aos="slide-right" data-aos-duration="200" class="  flex justify-start items-center p-4 text-2xl rounded-lg li">
+        <div class="w-1/3 flex justify-start items-center text-3xl rounded-lg material-symbols-outlined">
+          space_dashboard
+        </div>
+        <div class="text text-xl hidden xl:block sm:hidden"> Dashboard
+        </div>
+      </li>
+
+
+      <li data-aos="slide-right" data-aos-duration="300" class="flex justify-start items-center p-4 text-2xl rounded-lg li">
+        <div class="w-1/3 flex justify-start items-center text-3xl rounded-lg material-symbols-outlined">
+          person
+        </div>
+        <div class="text text-xl hidden xl:block sm:hidden"> Profile
+        </div>
+      </li>
+
+      <li data-aos="slide-right" data-aos-duration="400" class="flex justify-start items-center p-4 text-2xl rounded-lg li">
+        <div class="w-1/3 flex justify-start items-center text-3xl rounded-lg material-symbols-outlined">
+
+          monitoring
+        </div>
+        <div class="text text-xl hidden xl:block sm:hidden"> Statistics
+        </div>
+      </li>
+
+      <li data-aos="slide-right" data-aos-duration="500" class="flex justify-start items-center p-4 text-2xl rounded-lg li">
+        <div class="w-1/3 flex justify-start items-center text-3xl rounded-lg material-symbols-outlined">
+
+          business_center
+
+        </div>
+        <div class="text text-xl hidden xl:block sm:hidden"> Corners
+        </div>
+      </li>
+
+
+
+      <li data-aos="slide-right" data-aos-duration="600" class="flex justify-start items-center p-4 text-2xl rounded-lg li">
+        <div class="w-1/3 flex justify-start items-center text-3xl rounded-lg material-symbols-outlined">
+          help
+        </div>
+        <div class="text text-xl hidden xl:block sm:hidden"> FAQ
+        </div>
+      </li>
+
+      <li data-aos="slide-right" data-aos-duration="700" class="flex justify-start items-center p-4 text-2xl rounded-lg li">
+        <div class="w-1/3 flex justify-start items-center text-3xl rounded-lg material-symbols-outlined">
+          star
+        </div>
+        <div class="text text-xl hidden xl:block sm:hidden"> Testimonial
+        </div>
+      </li>
+
+      <li data-aos="slide-right" data-aos-duration="800" class="flex justify-start items-center p-4 text-2xl rounded-lg li">
+        <div class="w-1/3 flex justify-start items-center text-3xl rounded-lg material-symbols-outlined">
+          settings
+        </div>
+        <div class="text text-xl hidden xl:block sm:hidden"> Settings
+        </div>
+      </li>
+
+
+
+
+
+
+      <li data-aos="slide-right" data-aos-duration="900"  class=" flex justify-start items-center p-4 text-2xl rounded-lg li">
+        <div class="w-1/3 flex justify-start items-center text-3xl rounded-lg material-symbols-outlined">
+          logout
+        </div>
+        <div class="text text-xl hidden xl:block sm:hidden"> Logout
+        </div>
+
+      </li>
+    </ul>
+    
+
+  </aside>
+
+  <main  
+    class="grid gap-[clamp(10px,3vw,20px)] w-full h-[100%] ml-[0px] sm:ml-[100px] lg:ml-[100px] md:ml-[100px] xl:ml-[300px] bg-white  p-[clamp(10px,3vw,20px)]  main"
+    id="main">
+
+    <nav data-aos="fade-down" data-aos-duration="300"
+      class="sticky  w-full h-14 flex sm:hidden md:hidden md:hidden xl:hidden  justify-between items-center bg-black rounded-lg nav">
+      <li class="flex p-4 text-2xl text-white">
+        <div class="  flex justify-start items-center text-3xl rounded-lg material-symbols-outlined" id="nav">
+          menu
+        </div>
+
+
+      </li>
+
+      <div class=" w-[100%] text-orange-500 text-2xl flex justify-center items-center name">SwiftDash
+
+      </div>
+
+      <li class=" border-white flex justify-center items-center">
+        
+        <svg fill="none" viewBox="0 0 24 24" stroke-width="1.6" stroke="currentColor" class="text-white h-[34px] svg">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z" class="path" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+        </svg>
+        
+      </li>
+
+      <li class="flex p-4 text-2xl text-white searchicon">
+        <div class=" w-[10%] flex justify-start items-center text-3xl rounded-lg material-symbols-outlined" id="search">
+          search
+        </div>
+      </li>
+
+      <div
+        class="w-[100%] duration-300 p-3 translate-y-[-100px] opacity-1 flex justify-center items-center h-auto fixed top-0 left-0"
+        id="search box" >
+        <div
+          class="w-[10%] h-14 sm:w-[10%] sm:h-14 lg:w-16 xl:w-16 bg-white rounded-l-lg  justify-center items-center material-symbols-outlined flex sm:hidden ml:hidden lg:hidden xl:hidden search">
+          search
+        </div>
+
+        <input type="text"
+          class="w-[80%] h-14  rounded-r-lg outline outline-none text-xl bg-white sm:w-72 sm:h-14 lg:w-96 xl:w-60 flex sm:hidden ml:hidden lg:hidden xl:hidden input"
+          placeholder="Search">
+      </div>
+    </nav>
+
+    <div data-aos="fade-up" data-aos-duration="200" class="bg-gray-300 px-[clamp(1rem,2vw,2rem)] py-[clamp(0.5rem,2vw,1rem)] flex rounded-lg one">
+
+      <div class="w-[100%] sm:w-[100%] xl:w-[50%] pl-[clamp(0.5rem,1.5vw,1rem)] h-auto titlep">
+        <div class="text-[clamp(0.75rem,1.5vw,1rem)] text-gray-600 primary">Primary</div>
+        <div class="text-[clamp(1.5rem,4vw,2.5rem)] font-bold title">Dashboard</div>
+      </div>
+
+      <div
+        class="w-[100%] sm:w-[100%] p-[clamp(0.5rem,1vw,1rem)] xl:w-[50%] flex justify-end items-center sm:items-start h-auto input-img_ box" >
+
+        <div
+          class="w-[clamp(2.5rem,6vw,4rem)] h-[clamp(2.5rem,6vw,4rem)] bg-white rounded-l-lg justify-center items-center material-symbols-outlined hidden sm:flex ml:flex lg:flex xl:flex search">
+          search
+        </div>
+
+        <input type="text"
+          class="w-[clamp(8rem,20vw,18rem)] h-[clamp(2.5rem,6vw,4rem)] rounded-r-lg outline-none text-[clamp(1rem,2vw,1.25rem)] bg-white sm:flex ml:flex lg:flex xl:flex input hidden"
+          placeholder="Search">
+
+        <div
+          class="w-[clamp(5rem,8vw,6rem)] h-[clamp(2.5rem,6vw,4rem)] flex justify-center items-center rounded-full circle">
+          <img class="w-[clamp(3rem,5vw,4rem)] border-4 border-red-200 h-full rounded-full object-cover"
+            src="premium_photo-1689568126014-06fea9d5d341.jpeg" alt="">
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div data-aos="fade-up" data-aos-duration="300" class="bg-gray-300 p-[clamp(18px,3vw,40px)] rounded-lg two">
+      <div class="text-lg h-12 data-t">Today's Data</div>
+
+
+      <div class=" card-p">
+
+        <div class="p-[clamp(14px,3vw,20px)] rounded-lg bg-orange-400  box" data-aos="fade-up" data-aos-duration="100"    data-aos-delay="400">
+          <div class="w-[100%] flex items-center first">
+
+            <div class="w-[70%] card-t-p">
+              <div class="text-md card-title">Payment amount</div>
+              <div class="text-3xl  font-bold price">$500.00</div>
+            </div>
+
+
+            <div class="w-[25%flex items-center justify-end circle">
+              <div class="bg-orange-700 text-white p-4 rounded-full material-symbols-outlined">
+                attach_money
+              </div>
+            </div>
+
+
+          </div>
+          <div class="flex items-end w-[100%] h-10 second">
+            <div class="flex items-end justify-center w-1/2 n-one">* * * *</div>
+            <div class="flex items-end justify-center w-1/2 n-two">* * * *</div>
+            <div class="flex items-end justify-center w-1/2 n-three">* * * *</div>
+            <div class="flex items-end justify-center w-1/2 n-four">2 4 7 6</div>
+
+          </div>
+
+        </div>
+
+
+        <div data-aos="fade-up" data-aos-duration="300"    data-aos-delay="400" class="p-[clamp(14px,3vw,20px)] rounded-lg bg-red-400  box" >
+          <div class="w-[100%] flex items-center first">
+
+            <div class="w-[70%] card-t-p">
+              <div class="text-md card-title">Payment order</div>
+              <div class="text-3xl  font-bold price">$200.00</div>
+            </div>
+
+
+            <div class="w-[25%flex items-center justify-end circle">
+              <div class="bg-pink-700 text-white p-4 rounded-full material-symbols-outlined">
+                toc
+              </div>
+
+            </div>
+
+
+          </div>
+          <div class="flex items-end w-[100%] h-10 second">
+            <div class="flex items-end justify-center w-1/2 n-one">* * * *</div>
+            <div class="flex items-end justify-center w-1/2 n-two">* * * *</div>
+            <div class="flex items-end justify-center w-1/2 n-three">* * * *</div>
+            <div class="flex items-end justify-center w-1/2 n-four">3 6 2 4</div>
+
+          </div>
+
+        </div>
+
+
+        <div data-aos="fade-up" data-aos-duration="500"    data-aos-delay="400" class="p-[clamp(14px,3vw,20px)] rounded-lg bg-green-400  box" >
+          <div class="w-[100%] flex items-center first">
+
+            <div class="w-[70%] card-t-p">
+              <div class="text-md card-title">Payment Customers</div>
+              <div class="text-3xl  font-bold price">$350.00</div>
+            </div>
+
+
+            <div class="w-[25%flex items-center justify-end circle">
+              <div class="bg-green-700 text-white p-4 rounded-full material-symbols-outlined">
+                groups_2
+              </div>
+
+            </div>
+
+
+          </div>
+          <div class="flex items-end w-[100%] h-10 second">
+            <div class="flex items-end justify-center w-1/2 n-one">* * * *</div>
+            <div class="flex items-end justify-center w-1/2 n-two">* * * *</div>
+            <div class="flex items-end justify-center w-1/2 n-three">* * * *</div>
+            <div class="flex items-end justify-center w-1/2 n-four">7 3 6 1</div>
+
+          </div>
+
+        </div>
+
+        <div data-aos="fade-up" data-aos-duration="700"    data-aos-delay="400" class="p-[clamp(14px,3vw,20px)] rounded-lg bg-gray-400  box" >
+          <div class="w-[100%] flex items-center first">
+
+            <div class="w-[70%] card-t-p">
+              <div class="text-md card-title">Payment proceed</div>
+              <div class="text-3xl  font-bold price">$150.00</div>
+            </div>
+
+
+            <div class="w-[25%flex items-center justify-end circle">
+              <div class="bg-gray-700 text-white p-4 rounded-full material-symbols-outlined">
+                groups_2
+              </div>
+
+            </div>
+
+
+          </div>
+          <div class="flex items-end w-[100%] h-10 second">
+            <div class="flex items-end justify-center w-1/2 n-one">* * * *</div>
+            <div class="flex items-end justify-center w-1/2 n-two">* * * *</div>
+            <div class="flex items-end justify-center w-1/2 n-three">* * * *</div>
+            <div class="flex items-end justify-center w-1/2 n-four">7 3 5 4</div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <div data-aos="fade-up" data-aos-duration="400" class="bg-gray-300 w-full h-auto rounded-lg four">
+      <div class="h-12 text-[clamp(1rem,2vw,1.5rem)]  p-[clamp(18px,3vw,40px)]  protitle">
+        Top Selling Product
+      </div>
+      <!-- <div class="p-[clamp(10px,3vw,40px)] grid gap-[clamp(10px,3vw,20px)] product">
+
+        <div class="card-p">
+          <div class="group bg-white rounded-lg duration-300 card">
+            <div
+              class="rounded-lg rotate-[0deg] group-hover:-rotate-[35deg] group-hover:-translate-y-[150px] group-hover:-translate-x-[30px] duration-300 cardimg w-full h-[clamp(250px,30vh,300px)]">
+              <img class="w-full h-full green" src="dunk-high-orange-blaze-release-date.png" alt="">
+            </div>
+            <div
+              class="pl-[clamp(10px,5vw,20px)] pb-[clamp(10px,2vw,20px)] group-hover:-mt-[100px] duration-300 titlecard box" >
+              <div
+                class="text-[clamp(1.2rem,4vw,2rem)] mt-[-25px] text-orange-500 pl-[20%] group-hover:px-[0%] duration-300 cardtitlenike">
+                Nike Air Jordan
+              </div>
+              <div
+                class="text-[clamp(1rem,2vw,1.5rem)] h-10 text-black flex px-[40%] group-hover:px-[0%] duration-300 card font-bold price">
+                $100
+              </div>
+              <div
+                class="overflow-hidden h-0 group-hover:overflow-visible group-hover:h-auto duration-300 text-gray-600 text-[clamp(0.8rem,2vw,1rem)] descrip">
+                Nike Air Jordan Footwear basketball sneaker
+              </div>
+              <div
+                class="overflow-hidden p-0 h-0 w-[clamp(5rem,15vw,6rem)] mt-4 rounded-lg group-hover:overflow-visible group-hover:h-auto group-hover:p-3 duration-300 text-white bg-orange-600 text-[clamp(0.8rem,2vw,1rem)] btncardbuy">
+                Buy Now
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-p">
+          <div class="group bg-white rounded-lg duration-300 card">
+            <div
+              class="rounded-lg rotate-[0deg] group-hover:-rotate-[35deg] group-hover:-translate-y-[150px] group-hover:-translate-x-[30px] duration-300 cardimg w-full h-[clamp(250px,30vh,300px)]">
+              <img class="w-full h-full blue" src="dunk-high-orange-blaze-release-date.png" alt="">
+            </div>
+            <div
+              class="pl-[clamp(10px,5vw,20px)] pb-[clamp(10px,2vw,20px)] group-hover:-mt-[100px] duration-300 titlecard box" >
+              <div
+                class="text-[clamp(1.2rem,4vw,2rem)] mt-[-25px] text-orange-500 pl-[20%] group-hover:px-[0%] duration-300 cardtitlenike">
+                Nike Air Jordan
+              </div>
+              <div
+                class="text-[clamp(1rem,2vw,1.5rem)] h-10 text-black flex px-[40%] group-hover:px-[0%] duration-300 card font-bold price">
+                $100
+              </div>
+              <div
+                class="overflow-hidden h-0 group-hover:overflow-visible group-hover:h-auto duration-300 text-gray-600 text-[clamp(0.8rem,2vw,1rem)] descrip">
+                Nike Air Jordan Footwear basketball sneaker
+              </div>
+              <div
+                class="overflow-hidden p-0 h-0 w-[clamp(5rem,15vw,6rem)] mt-4 rounded-lg group-hover:overflow-visible group-hover:h-auto group-hover:p-3 duration-300 text-white bg-orange-600 text-[clamp(0.8rem,2vw,1rem)] btncardbuy">
+                Buy Now
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-p">
+          <div class="group bg-white rounded-lg duration-300 card">
+            <div
+              class="rounded-lg rotate-[0deg] group-hover:-rotate-[35deg] group-hover:-translate-y-[150px] group-hover:-translate-x-[30px] duration-300 cardimg w-full h-[clamp(250px,30vh,300px)]">
+              <img class="w-full h-full red" src="dunk-high-orange-blaze-release-date.png" alt="">
+            </div>
+            <div
+              class="pl-[clamp(10px,5vw,20px)] pb-[clamp(10px,2vw,20px)] group-hover:-mt-[100px] duration-300 titlecard box" >
+              <div
+                class="text-[clamp(1.2rem,4vw,2rem)] mt-[-25px] text-orange-500 pl-[20%] group-hover:px-[0%] duration-300 cardtitlenike">
+                Nike Air Jordan
+              </div>
+              <div
+                class="text-[clamp(1rem,2vw,1.5rem)] h-10 text-black flex px-[40%] group-hover:px-[0%] duration-300 card font-bold price">
+                $100
+              </div>
+              <div
+                class="overflow-hidden h-0 group-hover:overflow-visible group-hover:h-auto duration-300 text-gray-600 text-[clamp(0.8rem,2vw,1rem)] descrip">
+                Nike Air Jordan Footwear basketball sneaker
+              </div>
+              <div
+                class="overflow-hidden p-0 h-0 w-[clamp(5rem,15vw,6rem)] mt-4 rounded-lg group-hover:overflow-visible group-hover:h-auto group-hover:p-3 duration-300 text-white bg-orange-600 text-[clamp(0.8rem,2vw,1rem)] btncardbuy">
+                Buy Now
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-p">
+          <div class="group bg-white rounded-lg duration-300 card">
+            <div
+              class="rounded-lg rotate-[0deg] group-hover:-rotate-[35deg] group-hover:-translate-y-[150px] group-hover:-translate-x-[30px] duration-300 cardimg w-full h-[clamp(250px,30vh,300px)]">
+              <img class="w-full h-full yellow" src="dunk-high-orange-blaze-release-date.png" alt="">
+            </div>
+            <div
+              class="pl-[clamp(10px,5vw,20px)] pb-[clamp(10px,2vw,20px)] group-hover:-mt-[100px] duration-300 titlecard box" >
+              <div
+                class="text-[clamp(1.2rem,4vw,2rem)] mt-[-25px] text-orange-500 pl-[20%] group-hover:px-[0%] duration-300 cardtitlenike">
+                Nike Air Jordan
+              </div>
+              <div
+                class="text-[clamp(1rem,2vw,1.5rem)] h-10 text-black flex px-[40%] group-hover:px-[0%] duration-300 card font-bold price">
+                $100
+              </div>
+              <div
+                class="overflow-hidden h-0 group-hover:overflow-visible group-hover:h-auto duration-300 text-gray-600 text-[clamp(0.8rem,2vw,1rem)] descrip">
+                Nike Air Jordan Footwear basketball sneaker
+              </div>
+              <div
+                class="overflow-hidden p-0 h-0 w-[clamp(5rem,15vw,6rem)] mt-4 rounded-lg group-hover:overflow-visible group-hover:h-auto group-hover:p-3 duration-300 text-white bg-orange-600 text-[clamp(0.8rem,2vw,1rem)] btncardbuy">
+                Buy Now
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> -->
+    
+      <div
+       class="w-full grid [grid-template-columns:repeat(auto-fill,minmax(clamp(230px,25vw,280px),1fr))] gap-[clamp(15px,1.5vw,25px)] p-[clamp(20px,4vw,40px)]">
+        <div data-aos="fade-up" data-aos-duration="500"
+  data-aos-delay="500" class="p-[clamp(10px,1vw,20px)] rounded bg-gray-100 hover:scale-105 transition-transform">
+          <div class="w-full [height:clamp(120px,20vh,180px)]">
+            <img class="w-full h-full object-cover rounded" src="/pizza.jpg" alt="" />
+          </div>
+          <div class="flex flex-col">
+            <div class="py-[clamp(10px,1vw,20px)] px-[clamp(10px,1vw,20px)] flex gap-1 text-green-500">
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+                                                        
+            </div>
+            <p class="px-[clamp(10px,1vw,20px)] text-[clamp(12px,1vw,14px)]">$250</p>
+            <h6 class=" px-[clamp(10px,1vw,20px)] text-[clamp(16px,1.3vw,20px)] font-semibold">Onion Pizza</h6>
+            <p class="p-[clamp(10px,1vw,20px)] text-[clamp(12px,1vw,14px)]">Pizza is a cheesy Italian flatbread with delicious toppings.</p>
+            <div class="flex justify-center gap-[clamp(6px,1vw,12px)] p-[clamp(5px,1vw,10px)]">
+              <div class="flex justify-center duration-400 items-center w-1/2 py-[clamp(8px,1vw,12px)] bg-gray-400 rounded text-nowrap hover:bg-black hover:text-white transition">Add to Cart</div>
+              <div class="flex justify-center duration-400 items-center w-1/2 py-[clamp(8px,1vw,12px)] bg-gray-400 rounded text-nowrap hover:bg-black hover:text-white transition">Buy Now</div>
+            </div>
+          </div>
+        </div>
+      
+        <div  data-aos="fade-up" data-aos-duration="400"
+  data-aos-delay="500" class="p-[clamp(10px,1vw,20px)] rounded bg-gray-100 hover:scale-105 transition-transform">
+          <div class="w-full [height:clamp(120px,20vh,180px)]">
+            <img class="w-full h-full object-cover rounded" src="/pizza.jpg" alt="" />
+          </div>
+          <div class="flex flex-col">
+            <div class="py-[clamp(10px,1vw,20px)] px-[clamp(10px,1vw,20px)] flex gap-1 text-green-500">
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+                                                        
+            </div>
+            <p class="px-[clamp(10px,1vw,20px)] text-[clamp(12px,1vw,14px)]">$250</p>
+            <h6 class=" px-[clamp(10px,1vw,20px)] text-[clamp(16px,1.3vw,20px)] font-semibold">Onion Pizza</h6>
+            <p class="p-[clamp(10px,1vw,20px)] text-[clamp(12px,1vw,14px)]">Pizza is a cheesy Italian flatbread with delicious toppings.</p>
+            <div class="flex justify-center gap-[clamp(6px,1vw,12px)] p-[clamp(5px,1vw,10px)]">
+              <div class="flex justify-center duration-400 items-center w-1/2 py-[clamp(8px,1vw,12px)] bg-gray-400 rounded text-nowrap hover:bg-black hover:text-white transition">Add to Cart</div>
+              <div class="flex justify-center duration-400 items-center w-1/2 py-[clamp(8px,1vw,12px)] bg-gray-400 rounded text-nowrap hover:bg-black hover:text-white transition">Buy Now</div>
+            </div>
+          </div>
+        </div>
+        
+
+
+        <div  data-aos="fade-up" data-aos-duration="300"
+  data-aos-delay="500" class="p-[clamp(10px,1vw,20px)] rounded bg-gray-100 hover:scale-105 transition-transform">
+          <div class="w-full [height:clamp(120px,20vh,180px)]">
+            <img class="w-full h-full object-cover rounded" src="/pizza.jpg" alt="" />
+          </div>
+          <div class="flex flex-col">
+            <div class="py-[clamp(10px,1vw,20px)] px-[clamp(10px,1vw,20px)] flex gap-1 text-green-500">
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+                                                        
+            </div>
+            <p class="px-[clamp(10px,1vw,20px)] text-[clamp(12px,1vw,14px)]">$250</p>
+            <h6 class=" px-[clamp(10px,1vw,20px)] text-[clamp(16px,1.3vw,20px)] font-semibold">Onion Pizza</h6>
+            <p class="p-[clamp(10px,1vw,20px)] text-[clamp(12px,1vw,14px)]">Pizza is a cheesy Italian flatbread with delicious toppings.</p>
+            <div class="flex justify-center gap-[clamp(6px,1vw,12px)] p-[clamp(5px,1vw,10px)]">
+              <div class="flex justify-center duration-400 items-center w-1/2 py-[clamp(8px,1vw,12px)] bg-gray-400 rounded text-nowrap hover:bg-black hover:text-white transition">Add to Cart</div>
+              <div class="flex justify-center duration-400 items-center w-1/2 py-[clamp(8px,1vw,12px)] bg-gray-400 rounded text-nowrap hover:bg-black hover:text-white transition">Buy Now</div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div  data-aos="fade-up" data-aos-duration="200"
+  data-aos-delay="500" class="p-[clamp(10px,1vw,20px)] rounded bg-gray-100 hover:scale-105 transition-transform">
+          <div class="w-full [height:clamp(120px,20vh,180px)]">
+            <img class="w-full h-full object-cover rounded" src="/pizza.jpg" alt="" />
+          </div>
+          <div class="flex flex-col">
+            <div class="py-[clamp(10px,1vw,20px)] px-[clamp(10px,1vw,20px)] flex gap-1 text-green-500">
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+                                                        
+            </div>
+            <p class="px-[clamp(10px,1vw,20px)] text-[clamp(12px,1vw,14px)]">$250</p>
+            <h6 class=" px-[clamp(10px,1vw,20px)] text-[clamp(16px,1.3vw,20px)] font-semibold">Onion Pizza</h6>
+            <p class="p-[clamp(10px,1vw,20px)] text-[clamp(12px,1vw,14px)]">Pizza is a cheesy Italian flatbread with delicious toppings.</p>
+            <div class="flex justify-center gap-[clamp(6px,1vw,12px)] p-[clamp(5px,1vw,10px)]">
+              <div class="flex justify-center duration-400 items-center w-1/2 py-[clamp(8px,1vw,12px)] bg-gray-400 rounded text-nowrap hover:bg-black hover:text-white transition">Add to Cart</div>
+              <div class="flex justify-center duration-400 items-center w-1/2 py-[clamp(8px,1vw,12px)] bg-gray-400 rounded text-nowrap hover:bg-black hover:text-white transition">Buy Now</div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div data-aos="fade-up" data-aos-duration="100"
+  data-aos-delay="500" class="p-[clamp(10px,1vw,20px)] rounded bg-gray-100 hover:scale-105 transition-transform">
+          <div class="w-full [height:clamp(120px,20vh,180px)]">
+            <img class="w-full h-full object-cover rounded" src="/pizza.jpg" alt="" />
+          </div>
+          <div class="flex flex-col">
+            <div class="py-[clamp(10px,1vw,20px)] px-[clamp(10px,1vw,20px)] flex gap-1 text-green-500">
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+              <svg class="w-[clamp(20px,2vw,30px)] h-[clamp(20px,2vw,25px)]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+              </svg>
+                                                        
+            </div>
+            <p class="px-[clamp(10px,1vw,20px)] text-[clamp(12px,1vw,14px)]">$250</p>
+            <h6 class=" px-[clamp(10px,1vw,20px)] text-[clamp(16px,1.3vw,20px)] font-semibold">Onion Pizza</h6>
+            <p class="p-[clamp(10px,1vw,20px)] text-[clamp(12px,1vw,14px)]">Pizza is a cheesy Italian flatbread with delicious toppings.</p>
+            <div class="flex justify-center gap-[clamp(6px,1vw,12px)] p-[clamp(5px,1vw,10px)]">
+              <div class="flex justify-center duration-400 items-center w-1/2 py-[clamp(8px,1vw,12px)] bg-gray-400 rounded text-nowrap hover:bg-black hover:text-white transition">Add to Cart</div>
+              <div class="flex justify-center duration-400 items-center w-1/2 py-[clamp(8px,1vw,12px)] bg-gray-400 rounded text-nowrap hover:bg-black hover:text-white transition">Buy Now</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Repeat for more cards -->
+      </div>
+    
+    </div>
+
+
+    <div data-aos="fade-up" data-aos-duration="600" class="bg-gray-300 rounded-lg p-[clamp(18px,3vw,40px)] three">
+      <div class="h-12 text-lg table-title">Finance data</div>
+
+
+
+
+       <div data-aos="fade-up" data-aos-duration="700"
+   class="  flex flex-col gap-3 text-sm lg:flex xl:flex lg:flex-row xl:flex-row rate">
+
+        <div data-aos="fade-right" data-aos-duration="300"
+   class="rounded-lg px-8 py-8 w-[100%] bg-white lg:w-[25%xl:w-[25%rate-container">
+
+          <div class="w-[50%] pb-6 text-xl justify-start username">
+            User Rating
+          </div>
+          <div class=" w-[100%] flex justify-center items-center ratecicle box" >
+
+            <div class="w-[140px] h-[140px]  ratecircle">
+              <div
+                class="w-[120px] h-[120px] rounded-full flex justify-center items-center bg-gray-700 text-2xl text-white circle- box" >
+                4.8</div>
+            </div>
+          </div>
+
+          <div class="w-[100%] py-6 flex h-auto items-end flex justify-center gap-2 rating">
+
+
+            <div class="text-yellow-400 fa fa-star checked" style="text-shadow: 0 0 1px #000;"></div>
+
+            <div class="text-yellow-400 fa fa-star checked" style="text-shadow: 0 0 1px #000;"></div>
+            <div class="text-yellow-400 fa fa-star checked" style="text-shadow: 0 0 1px #000;"></div>
+            <div class="text-yellow-400 fa fa-star checked" style="text-shadow: 0 0 1px #000;"></div>
+
+          </div>
+          <div class="w-[100%] text-sm text-gray-600 flex  user-detail">
+            45 Rating
+          </div>
+          <div class="w-[100%] mt-2 flex h-auto items-end user-detail">
+            4.1 average based on 254 reviews.
+          </div>
+        </div>
+
+
+        <div data-aos="fade-left" data-aos-duration="300"
+   class="rounded-lg px-8 py-8 bg-white  w-[100%] lg:w-[70%] xl:w-[70%] flex flex-col gap-6 rate- box" >
+
+          <div class="w-[100%] h-auto flex flex-col justify-center range">
+            <div class="startext h-8">5 star</div>
+            <div class="w-[100%] h-[8px] bg-gray-500 rounded-sm rangebar">
+              <div class="w-[60%] h-[8px] bg-green-600 rounded-l-sm bar"></div>
+            </div>
+          </div>
+
+
+          <div class="w-[100%] h-auto flex flex-col justify-center range">
+
+
+            <div class="startext h-8">4 star</div>
+            <div class="w-[100%] h-[8px] bg-gray-500 rounded-sm rangebar">
+              <div class="w-[40%] h-[8px] bg-red-600 rounded-l-sm bar"></div>
+            </div>
+          </div>
+
+          <div class="w-[100%] h-auto flex flex-col justify-center range">
+
+
+            <div class="startext h-8">3 star</div>
+            <div class="w-[100%] h-[8px] bg-gray-500 rounded-sm rangebar">
+              <div class="w-[20%] h-[8px] bg-blue-600 rounded-l-sm bar"></div>
+            </div>
+          </div>
+
+
+          <div class="w-[100%]  h-auto flex flex-col justify-center range">
+
+
+            <div class="startext h-8">2 star</div>
+            <div class="w-[100%] h-[8px] bg-gray-500 rounded-sm rangebar">
+              <div class="w-[80%] h-[8px] bg-purple-800 rounded-l-sm bar"></div>
+            </div>
+          </div>
+
+          <div class="w-[100%] h-auto flex flex-col justify-center range">
+
+
+            <div class="startext h-8">1 star</div>
+            <div class="w-[100%] h-[8px] bg-gray-500 rounded-sm rangebar">
+              <div class="w-[50%] h-[8px] bg-orange-600 rounded-l-sm bar"></div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+      </div> 
+    </div>
+
+    <div data-aos="fade-up" data-aos-duration="600" class="bg-gray-300 h-auto rounded-lg p-[clamp(18px,3vw,40px)] five">
+      <div class="h-12 text-lg table-title">Dates and Data</div>
+
+
+       <div
+        class=" flex gap-[clamp(0.4rem,3vw,1rem)] flex-col sm:flex md:flex-row lg:flex-row xl:flex-row  h-auto text-sm sm:block lg:flex xl:flex lg:flex-row xl:flex-row data box" >
+
+        <div data-aos="fade-right" data-aos-duration="700"
+
+          class="w-[100%] sm:w-[100%] md:w-[100%] lg:w-[50%] xl:w-[50%]  h-auto  flex  flex-col gap-[clamp(0.4rem,3vw,1rem)]">
+          <div class="h-auto bg-white rounded-lg" id="  box" >
+            <header
+              class="flex gap-2 px-[clamp(1rem,4vw,2rem)] justify-between items-center w-full h-auto bg-orange-500 rounded-md  head">
+
+
+
+              <h1 class="text-[clamp(1.5rem,2vw,3rem)]  pl-[clamp(1rem,5vw,3rem)] flex w-[70%] items-center" id="h2">
+
+              </h1>
+              <div class=" w-[25%] h-auto flex gap-2 justify-around">
+
+                <button class="w-[40%] h-auto flex justify-center items-center" id="pre">
+                  <div
+                    class="w-full py-[clamp(0.4rem,2vw,0.8rem)] px-[clamp(0.2rem,2vw,0.5rem)] rounded-lg h-[50%] flex justify-center items-center bg-blue-400 udivl uil-angle-left"
+                    style="font-size: 50px;"></div>
+                </button>
+
+
+                <button class="w-[40%] h-auto flex justify-center items-center" id="next">
+                  <div
+                    class="w-full py-[clamp(0.4rem,2vw,0.8rem)] px-[clamp(0.2rem,2vw,0.5rem)] rounded-lg h-[50%] flex justify-center items-center bg-blue-400 udivl uil-angle-right"
+                    style="font-size: 50px;"></div>
+                </button>
+              </div>
+
+
+            </header>
+            <div class=" weeks">
+              <div>Sun</div>
+              <div>Mon</div>
+              <div>Tue</div>
+              <div>Wed</div>
+              <div>Thu</div>
+              <div>Fri</div>
+              <div>Sat</div>
+
+            </div>
+            <div class=" day" id="days">
+
+            </div>
+          </div>
+          <div class=" bg-white h-auto p-[clamp(21px,2.4vw,23px)] rounded-lg">
+
+
+            <div class=" w-full h-auto text-[clamp(25px,1.5vw,26px)] upcoming">Upcoming Events</div>
+
+
+            <div class="w-full h-auto flex mt-[clamp(1rem,4vw,1rem)] py-[clamp(4px,2.4vw,10px)]">
+
+              <div class="w-[25%] font-bold text-[clamp(1rem,2vw,1.25rem)]">
+                March
+              </div>
+
+              <div class="w-[50%] flex justify-start items-center text-[clamp(1rem,2vw,1.25rem)]">
+                Team meeting
+              </div>
+
+              <div class="w-[25%] flex justify-end items-center text-[clamp(1rem,2vw,1.25rem)]">
+                21
+              </div>
+
+            </div>
+
+
+
+            <div class="w-full h-auto flex py-[clamp(4px,2.4vw,10px)]">
+              <div class="w-[25%] font-bold text-[clamp(1rem,2vw,1.25rem)]">
+                April
+              </div>
+
+              <div class="w-[50%] flex justify-start items-center text-[clamp(1rem,2vw,1.25rem)]">
+                Project deadline
+              </div>
+
+              <div class="w-[25%] flex justify-end items-center text-[clamp(1rem,2vw,1.25rem)]">
+                26
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+
+        <div data-aos="fade-left" data-aos-duration="700"
+
+          class="w-[100%] sm:w-[100%] md:w-[100%] lg:w-[50%] xl:w-[50%] h-auto flex flex-col gap-[clamp(0.4rem,3vw,0.8rem)]">
+
+          <div
+            class="todaystask w-full px-[clamp(2rem,3vw,2rem)] p-[clamp(18px,3vw,40px)] py-[clamp(2rem,3vw,2rem)]  bg-white rounded-lg">
+            <div class="w-full text-[clamp(1.5rem,3vw,1.6rem)]">
+              Today's Tasks
+
+            </div>
+            <div class="tasks mt-[clamp(2rem,3vw,2rem)]">
+              <li class="flex w-full h-10 text-[clamp(1rem,3vw,1.2rem)] flex justify-start items-center">
+                <div class="check w-9 flex justify-center items-center">
+                  <input type="check box"  class="w-[clamp(1rem,3vw,1rem)] h-[clamp(1rem,3vw,1rem)] accent-orange-400  "
+                    checked>
+                </div>
+                Finish report
+              </li>
+              <li class="flex w-full h-10 text-[clamp(1rem,3vw,1.2rem)]  flex justify-start items-center">
+                <div class="check w-9 flex justify-center items-center">
+                  <input type="check box"  class="w-[clamp(1rem,3vw,1rem)] h-[clamp(1rem,3vw,1rem)] accent-orange-400  "
+                    checked>
+                </div>
+                Send email
+              </li>
+              <li class="flex w-full h-10 text-[clamp(1rem,3vw,1.2rem)] flex justify-start items-center">
+                <div class="check w-9 flex justify-center items-center">
+                  <input type="check box"  class="w-[clamp(1rem,3vw,1rem)] h-[clamp(1rem,3vw,1rem)] accent-orange-400  "
+                    checked>
+                </div>
+                Attend meeting
+              </li>
+              <li class="flex w-full h-10 text-[clamp(1rem,3vw,1.2rem)] flex justify-start items-center">
+                <div class="check w-9 flex justify-center items-center">
+                  <input type="check box"  class="w-[clamp(1rem,3vw,1rem)] h-[clamp(1rem,3vw,1rem)] accent-orange-400  "
+                    checked>
+                </div>
+                Call the supplier
+              </li>
+            </div>
+          </div>
+
+          <div class="client  w-full  px-[clamp(30px,3vw,40px)] py-[clamp(2rem,3vw,2rem)] bg-white rounded-lg">
+
+            <div class="client text-[clamp(1.5rem,3vw,1.6rem)]">Our Clients</div>
+            <div
+              class="overflow-y-scroll h-[157px] mt-[clamp(2rem,3vw,2rem)] flex flex-col gap-[clamp(0.7rem,3vw,1rem)] client">
+              <div
+                class=" w-full h-auto flex justify-between items-center border-2 rounded-lg border-black bg-white p-[clamp(4px,1.6vw,8px)] client-container">
+
+                <div class="client-profile w-10 flex justify-center items-center h-10">
+                  <img src="arthur-a-l5D8ntcb4O8-unsplash.jpg" class="w-10 h-10 rounded-md" alt="">
+                </div>
+
+                <div class="client-detail ml-[clamp(3px,4vw,5px)] w-[60%]">
+                  <div class="client-title font-bold text-[clamp(1rem,3vw,1.5rem)] overflow-x-scroll overfl">Sam Altman</div>
+                  <div class="client-job whitespace-nowrap text-[clamp(0.7rem,3vw,1rem)] text-gray-500">Devloper</div>
+
+                </div>
+
+                <div class="client-profile w-10 h-10 flex justify-center items-center">
+                  <div class="material-symbols-outlined">message</div>
+                </div>
+
+              </div>
+
+              <div
+                class=" w-full h-auto flex justify-between items-center border-2 rounded-lg border-black bg-white p-[clamp(4px,1.6vw,8px)] client-container">
+
+                <div class="client-profile w-10 h-10">
+                  <img src="ehsan-ahmadi-vsWy6nchcOs-unsplash.jpg" class="w-10 h-10 rounded-md" alt="">
+                </div>
+
+                <div class="client-detail ml-[clamp(3px,4vw,5px)]  w-[60%]">
+                  <div class="client-title font-bold text-[clamp(1rem,3vw,1.5rem)] overflow-x-scroll overfl">Margo aris</div>
+                  <div class="client-job whitespace-nowrap text-[clamp(0.7rem,3vw,1rem)] text-gray-500">Designer</div>
+
+                </div>
+
+                <div class="client-profile w-10 h-10 flex justify-center items-center">
+                  <div class="material-symbols-outlined">message</div>
+                </div>
+
+              </div>
+
+              <div
+                class=" w-full h-auto flex justify-between border-2 rounded-lg border-black bg-white p-[clamp(4px,1.6vw,8px)] client-container">
+
+                <div class="client-profile w-10 h-10">
+                  <img src="houcine-ncib-jznk1JEIcgM-unsplash.jpg" class="w-10 h-10 rounded-md" alt="">
+                </div>
+
+                <div class="client-detail ml-[clamp(3px,4vw,5px)]  w-[60%]">
+                  <div class="client-title font-bold text-[clamp(1rem,3vw,1.5rem)] overflow-x-scroll overfl">Louise merit</div>
+                  <div class="client-job whitespace-nowrap text-[clamp(0.7rem,3vw,1rem)] text-gray-500">Project head
+                  </div>
+
+                </div>
+
+                <div class="client-profile w-10 h-10 flex justify-center items-center">
+                  <div class="material-symbols-outlined">message</div>
+                </div>
+
+              </div>
+
+              <div
+                class=" w-full h-auto flex justify-between border-2 rounded-lg border-black bg-white p-[clamp(4px,1.6vw,8px)] client-container">
+
+                <div class="client-profile w-10 h-10">
+                  <img src="jonathan-borba-3bM6Hj_RfYo-unsplash.jpg" class="w-10 h-10 rounded-md" alt="">
+                </div>
+
+                <div class="client-detail ml-[clamp(3px,4vw,5px)]  w-[60%]">
+                  <div class="client-title font-bold text-[clamp(1rem,3vw,1.5rem)] overflow-x-scroll overfl">Max tenison</div>
+                  <div class="client-job whitespace-nowrap text-[clamp(0.7rem,3vw,1rem)] text-gray-500">Devops engineer
+                  </div>
+
+                </div>
+
+                <div class="client-profile w-10 h-10 flex justify-center items-center">
+                  <div class="material-symbols-outlined">message</div>
+                </div>
+
+              </div>
+
+
+
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <div class="overflow-x-scroll bg-gray-300 rounded-lg p-[clamp(18px,3vw,40px)] table">
+
+      
+      
+     <!-- <div class="w-full h-96 border-4 border-black"> -->
+    
+     <!-- </div> -->
+      
+      
+      
+      
+      <!-- this is not responsive  start -->
+
+       <div class=" border-4 border-white rounded-lg flex flex-col w-full">
+        
+        <div class="bg-indigo-700 text-white font-bold flex w-full flex-row rounded-t-lg">
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)]">Date</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)]">Transaction Type</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)]">Description</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)]">Amount</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)]">Category</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)]">Status</div>
+        </div>
+    
+        <div class="border-t bg-gray-300  flex w-full flex-row">
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)]">2025-04-01</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)]">Credit</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)]">Income</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)]">₹1,200</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)]">Food</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)] text-green-700">Success</div>
+        </div>
+    
+        <div class=" bg-white flex w-full flex-row">
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)]">2025-04-02</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)]">Debit</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)]">Expense</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)]">₹750</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)]">Travel</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)] text-yellow-700">Pending</div>
+        </div>
+    
+        <div class=" flex w-full bg-gray-300">
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)] text-black">2025-04-03</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)] text-black">Refund</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)] text-black">Return</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)] text-black">₹2,300</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)] text-black">Shopping</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)] text-red-700 text-red-700">Failed</div>
+        </div>
+    
+    
+
+        <div class=" flex w-full bg-white">
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)] text-black">2025-04-04</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)] text-black">Transfer</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)] text-black">Movement</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)] text-black">₹500</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)] text-black">Bills</div>
+          <div class="p-[clamp(3px,2vw,5px)] flex justify-start items-center w-[clamp(100px,16.6%,200px)] text-[clamp(10px,1.5vw,18px)] text-orange-500 text-orange-800">Cancelled</div>
+        </div>
+      </div>    
+      <!-- this is not responsive end -->
+
+
+    </div>
+
+
+
+
+
+
+
+
+  </main>
+
+
+
+
+  <!-- <input type="number" id="input" required>
+<div id=" box" ></div>
+<div id="res"></div>
+<button type="submit" id="submit">submit</button> -->
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
